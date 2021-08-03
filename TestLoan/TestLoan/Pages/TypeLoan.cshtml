@@ -1,0 +1,54 @@
+﻿@page
+@model TestLoan.Pages.TypeLoanModel
+@{
+}
+<div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <div class="pt-4">
+                    <div class="mx-3 pt-3 pb-2"
+                         style="text-align: center; color:#1877f2; background-color: #FAFAFA; border-radius: 5px;">
+                        <h4>ประเภทเงินยืมที่ 1</h4>
+                    </div>
+                </div>
+                <div class="p-3 pt-3 px-4" style="text-align: left;">
+                    <h6>ประเภท @Model.LoanName บาท</h6>
+                    <h6>อัตราดอกเบี้ย @Model.Increase เดือน</h6>
+                    <h6>งวด @Model.periods บาท</h6>
+                    <h6>วงเงินกู้ยืมสูงสุด @Model.remain_loan งวด</h6>
+                    <div class="mt-3"></div>
+                    <h6>** เงินเดือนคงเหลือสุทธิต้องไม่น้อยกว่าร้อยละ 10 **</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </div>
+</div>
